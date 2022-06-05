@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+.row-custom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.card-custom {
+    width: 30%;
+}
+
+@media screen and (max-width: 480px) {
+    .card-custom {
+        width: 96%;
+        margin: 0 12px;
+    }
+
+}
